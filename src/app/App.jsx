@@ -6,11 +6,11 @@ export class App extends React.Component {
     render() {
         return (
             <>
-                <h1> Here will be printed the value from the dropdown menu  </h1>
+                {/* <h1> Here will be printed the value from the dropdown menu  </h1> */}
 
-                {/* <ImageChanger /> */}
+                <ImageChanger />
 
-                <Dropdown />
+                {/* <Dropdown /> */}
             </>
         );
     }
